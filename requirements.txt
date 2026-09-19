@@ -6,6 +6,8 @@ matplotlib
 yfinance
 nbformat
 nbconvert
+nbclient
+jupyter-client
 ipykernel
 pytest
 pypdf

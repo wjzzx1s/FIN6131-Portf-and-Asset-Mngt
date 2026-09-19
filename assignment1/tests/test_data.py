@@ -13,6 +13,7 @@ def test_archive_to_verified_prices(tmp_path):
     path = ROOT / "data_io.py"
     assert path.exists(), "Data snapshot loader has not been implemented"
     spec = importlib.util.spec_from_file_location("data_io", path)
+    assert spec is not None and spec.loader is not None
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     prices, metadata = module.build_snapshot(ROOT / "data/raw", tmp_path)
