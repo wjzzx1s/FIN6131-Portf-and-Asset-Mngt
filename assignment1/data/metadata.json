@@ -1,0 +1,100 @@
+{
+  "provider": "Yahoo Finance",
+  "field": "indicators.adjclose[0].adjclose",
+  "retrieval_method": "Public chart endpoint via real browser; direct yfinance was blocked",
+  "tickers": [
+    "SPY",
+    "QQQ",
+    "IWM",
+    "EFA",
+    "EEM",
+    "TLT",
+    "LQD",
+    "GLD",
+    "VNQ"
+  ],
+  "currency": "USD",
+  "window_start_inclusive": "2021-09-19",
+  "window_end_exclusive": "2026-09-19",
+  "split_date": "2024-09-19",
+  "price_start": "2021-09-17",
+  "price_end": "2026-09-18",
+  "price_rows": 1256,
+  "missing_cells": 0,
+  "dropped_rows": 0,
+  "sha256": "8baf117bd68b1703cd1c71c7884f3111fe697409cf628f78a18176c3a54651cc",
+  "sources": [
+    {
+      "ticker": "SPY",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1631836800&period2=1789776000&interval=1d&events=div%2Csplits",
+      "rows": 1256,
+      "retrieved_at_utc": "2026-09-19T14:25:05.634841+00:00",
+      "file": "SPY.json",
+      "sha256": "0f0e8699a1ce41274862e7b73358d6d21476f52708709adaf912908278725252"
+    },
+    {
+      "ticker": "QQQ",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?period1=1631836800&period2=1789776000&interval=1d&events=div%2Csplits",
+      "rows": 1256,
+      "retrieved_at_utc": "2026-09-19T14:25:09.329259+00:00",
+      "file": "QQQ.json",
+      "sha256": "4b2b766460a182799dbf7950a8fdb100ed2d3a82dfb831eacddeaf8edb62be3c"
+    },
+    {
+      "ticker": "IWM",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?period1=1631836800&period2=1789776000&interval=1d&events=div%2Csplits",
+      "rows": 1256,
+      "retrieved_at_utc": "2026-09-19T14:25:14.650845+00:00",
+      "file": "IWM.json",
+      "sha256": "3a9df9c43867fee18242f3a34ec56dd887730da194e1969bb050ae47500c10af"
+    },
+    {
+      "ticker": "EFA",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/EFA?period1=1631836800&period2=1789776000&interval=1d&events=div%2Csplits",
+      "rows": 1256,
+      "retrieved_at_utc": "2026-09-19T14:25:28.996334+00:00",
+      "file": "EFA.json",
+      "sha256": "bc69aafbc3f8c919eb89f9036c23fc3aba07b11ef9804d9bbd8783aed4f87323"
+    },
+    {
+      "ticker": "EEM",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/EEM?period1=1631836800&period2=1789776000&interval=1d&events=div%2Csplits",
+      "rows": 1256,
+      "retrieved_at_utc": "2026-09-19T14:25:33.496823+00:00",
+      "file": "EEM.json",
+      "sha256": "b8bb545b29021ba46786608363beb6f89d71c08671ac0bcf1ef71d76aa530329"
+    },
+    {
+      "ticker": "TLT",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/TLT?period1=1631836800&period2=1789776000&interval=1d&events=div%2Csplits",
+      "rows": 1256,
+      "retrieved_at_utc": "2026-09-19T14:25:39.022112+00:00",
+      "file": "TLT.json",
+      "sha256": "85fba7027cf91970b21a0af4eba0da62388d8b317eba4e2f7a83a1475759fe77"
+    },
+    {
+      "ticker": "LQD",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/LQD?period1=1631836800&period2=1789776000&interval=1d&events=div%2Csplits",
+      "rows": 1256,
+      "retrieved_at_utc": "2026-09-19T14:25:51.336075+00:00",
+      "file": "LQD.json",
+      "sha256": "30f1d269b259ce84afbc699685a8b89f915c0c014d1cd8f4e195925c00c16612"
+    },
+    {
+      "ticker": "GLD",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?period1=1631836800&period2=1789776000&interval=1d&events=div%2Csplits",
+      "rows": 1256,
+      "retrieved_at_utc": "2026-09-19T14:25:55.005092+00:00",
+      "file": "GLD.json",
+      "sha256": "8ced4cf5629ee4febbd689b098c097bbd650e8a97611375d1e674f0ce2803804"
+    },
+    {
+      "ticker": "VNQ",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?period1=1631836800&period2=1789776000&interval=1d&events=div%2Csplits",
+      "rows": 1256,
+      "retrieved_at_utc": "2026-09-19T14:25:57.722423+00:00",
+      "file": "VNQ.json",
+      "sha256": "2aa9a24e349fcaad9a1508158c0b2363fb8af2a16ea52a5f1070ef3035b99f36"
+    }
+  ]
+}

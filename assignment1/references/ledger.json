@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1952.tb01525.x",
+      "title": "Markowitz (1952), Portfolio Selection",
+      "accessed": "2026-09-19"
+    },
+    {
+      "id": 2,
+      "url": "https://ranaroussi.github.io/yfinance/reference/api/yfinance.download.html",
+      "title": "yfinance download documentation",
+      "accessed": "2026-09-19"
+    }
+  ]
+}

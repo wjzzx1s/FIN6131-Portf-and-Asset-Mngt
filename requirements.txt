@@ -1,0 +1,11 @@
+# Direct requirements; use requirements.lock.txt for the exact executed environment.
+numpy
+pandas
+scipy
+matplotlib
+yfinance
+nbformat
+nbconvert
+ipykernel
+pytest
+pypdf

@@ -234,3 +234,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# LibreOffice locks and local Jupyter kernels
+.~lock.*#
+.local/
+
+# Assignment submission PDFs (retain the general PDF ignore rule)
+!assignment1/report.pdf
+!assignment1/outputs/figures/*.pdf

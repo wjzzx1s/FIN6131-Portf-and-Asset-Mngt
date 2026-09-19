@@ -1,0 +1,65 @@
+[
+  {
+    "ticker": "SPY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1631836800&period2=1789776000&interval=1d&events=div%2Csplits",
+    "rows": 1256,
+    "retrieved_at_utc": "2026-09-19T14:25:05.634841+00:00",
+    "file": "SPY.json"
+  },
+  {
+    "ticker": "QQQ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?period1=1631836800&period2=1789776000&interval=1d&events=div%2Csplits",
+    "rows": 1256,
+    "retrieved_at_utc": "2026-09-19T14:25:09.329259+00:00",
+    "file": "QQQ.json"
+  },
+  {
+    "ticker": "IWM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?period1=1631836800&period2=1789776000&interval=1d&events=div%2Csplits",
+    "rows": 1256,
+    "retrieved_at_utc": "2026-09-19T14:25:14.650845+00:00",
+    "file": "IWM.json"
+  },
+  {
+    "ticker": "EFA",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EFA?period1=1631836800&period2=1789776000&interval=1d&events=div%2Csplits",
+    "rows": 1256,
+    "retrieved_at_utc": "2026-09-19T14:25:28.996334+00:00",
+    "file": "EFA.json"
+  },
+  {
+    "ticker": "EEM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/EEM?period1=1631836800&period2=1789776000&interval=1d&events=div%2Csplits",
+    "rows": 1256,
+    "retrieved_at_utc": "2026-09-19T14:25:33.496823+00:00",
+    "file": "EEM.json"
+  },
+  {
+    "ticker": "TLT",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TLT?period1=1631836800&period2=1789776000&interval=1d&events=div%2Csplits",
+    "rows": 1256,
+    "retrieved_at_utc": "2026-09-19T14:25:39.022112+00:00",
+    "file": "TLT.json"
+  },
+  {
+    "ticker": "LQD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LQD?period1=1631836800&period2=1789776000&interval=1d&events=div%2Csplits",
+    "rows": 1256,
+    "retrieved_at_utc": "2026-09-19T14:25:51.336075+00:00",
+    "file": "LQD.json"
+  },
+  {
+    "ticker": "GLD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?period1=1631836800&period2=1789776000&interval=1d&events=div%2Csplits",
+    "rows": 1256,
+    "retrieved_at_utc": "2026-09-19T14:25:55.005092+00:00",
+    "file": "GLD.json"
+  },
+  {
+    "ticker": "VNQ",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VNQ?period1=1631836800&period2=1789776000&interval=1d&events=div%2Csplits",
+    "rows": 1256,
+    "retrieved_at_utc": "2026-09-19T14:25:57.722423+00:00",
+    "file": "VNQ.json"
+  }
+]
